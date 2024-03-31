@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wdth,wght@12..72,75,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    gap: 5rem;
+    font-size: 2.3rem;
+    font-family: "Truculenta", sans-serif;
+    font-weight: 300;
+
+}
+.ham{
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    color: black;
+}
+.cross{
+    display: inline;
+    position: absolute;
+    top: 0.25rem;
+    left: 9.8vw;
+    color: black;
+    transition-delay: 0.4s;
+}
+.asidego{
+    transform:  translate(-443px , 0px);
+    position: absolute;
+}
+.aside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.aside{
+    width: 12vw;
+    height: 100vh;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: grey;
+    position: absolute;
+    transition: transform 0.3s ease-in;
+}
+
+.aside ul li{
+    list-style: none;
+}
+.aside ul li a{
+    text-decoration: none;
+    color:black;
+}
+.section{
+    margin: 15rem 3rem;
+    display: flex;
+    gap: 2rem;
+}
+.contact_container{
+    margin: 10rem 5rem;
+}
+.cv_container{
+    margin: 5rem 5rem;
+}
+.blog_container{
+    margin: 5rem 5rem;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+}
+.button{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.button button , .button input{ 
+
+    font-size: 1.2rem;
+    background-color: rgb(85, 85, 241);
+    padding: 12px;
+    color: black;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.image{
+    width: 12rem;
+    height: 12rem;
+}
+.small{
+    font-size: 1rem;
+
+}
+.cv_container{
+    width: 86vw;
+    height: 100vh;
+
+}
+@media only screen And (max-width:700px){
+    .cross{
+        font-size: 0.8rem;
+    }
+    .aside{
+        font-size: 0.8rem;
+    }
+    body{
+        font-size: 0.8rem;
+        gap: 2rem;
+    }
+    
+    .image{
+        width: 8rem;
+        height: 8rem;
+    }
+    .button button{
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}
+.intro_container{
+ padding-left: 4rem;
+ font-size: 1.6rem;
+}
+h1{
+    text-transform: uppercase;
+}
+.shorttext{
+    font-size: 0.8rem;
+}
+.midtext{
+    font-size: 1.2rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 0.5rem;
+}
+p input{
+    font-size: 1.4rem;
+    width: 1rem;
+}
+input{
+    font-size: 1.4rem;
+    width: 25rem;
+}
