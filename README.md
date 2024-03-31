@@ -1,2 +1,2 @@
-# TexUtil
-This is Text Utilises Repositery  
+# My Portfolio 
+This is my portfolio repository 
