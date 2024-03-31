@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-   
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="aside asidego">
+        
+                <ul>
+            <li> <a href="/index.html" target="_blank ">Home</a> </li>
+            <li> <a href="/intro.html" target="_blank ">My Intro</a></li>
+            <li> <a href="/contact.html" target="_blank ">Contact Me</a></li>
+            <li> <a href="/cv.html" target="_blank ">CV</a></li>
+            <li> <a href="/blog.html" target="_blank ">Blog</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="hamburger">
 
-   
-    <title>TextUtills</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <div class="ham">
+    
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="cross">
+    
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+        </div>
+        <div class="about">
+            <p>Hi I am</p>
+            <h4 class="bold">Rajat Goyal</h4>
+            <p>Developer, Entrepreneur, Trader</p>
+            <p class="small"> I am a Developer and good problem solver . Passionated about programming  And I am also doing trading </p>
+            <div class="button">
+                <a href="Rajat's Resume (3)_22-Jul-23_11.27.51 (1)_page-0001.jpg" download="">
+                    <button>
+                        Download CV
+                    </button>
+                    <!-- <input type="button" id="btn" value="Download CV" />
+                       <input type="text" name="" id=""> -->
 
-  </body>
+                </a>
+
+                  <a href="/contact.html" target="_blank">
+                    <button >
+                        Contact Me
+                     </button>
+                  </a>
+              
+            </div>
+        </div>
+        <div class="image+container">
+            <img class="image" src="Rajat Passport photo - Copy_page-0001.jpg" alt="Error">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e9c44a3c2d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
 </html>
